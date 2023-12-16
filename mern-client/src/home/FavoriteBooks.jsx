@@ -8,7 +8,7 @@ const FavoriteBooks = () => {
     const [books ,setBooks] = useState([])
 
     useEffect(()=>{
-        fetch("https://bookbackend44.onrender.com/all-books").then(res => res.json()).then(data => setBooks(data.slice(0,9)))
+        fetch("https://booksbackend-xlh5.onrender.com/all-books").then(res => res.json()).then(data => setBooks(data.slice(0,9)))
     },[])
   return (
     <div>
