@@ -1,0 +1,61 @@
+.swipess .swiper {
+     width: 240px;
+     height: 320px;
+}
+
+.swipess .swiper-slide {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 18px;
+     font-size: 22px;
+     font-weight: bold;
+     color: #fff;
+}
+
+.swipess .swiper-slide:nth-child(1n) {
+     background-image: url("src/assets/bannerbooks/book1.jpeg");
+     background-size:cover
+}
+
+.swipess .swiper-slide:nth-child(2n) {
+     background-image: url("src/assets/bannerbooks/book2.jpeg");
+     background-size: cover;
+}
+
+.swipess .swiper-slide:nth-child(3n) {
+     background-image: url("src/assets/bannerbooks/book3.jpeg");
+     background-size:cover
+}
+
+.swipess .swiper-slide:nth-child(4n) {
+     background-image: url("src/assets/bannerbooks/book4.jpeg");
+     background-size:cover
+}
+
+.swipess .swiper-slide:nth-child(5n) {
+     background-image: url("src/assets/bannerbooks/book5.jpeg");
+     background-size:cover
+}
+
+.swipess .swiper-slide:nth-child(6n) {
+     background-image: url("src/assets/bannerbooks/book6.jpeg");
+     background-size:cover
+}
+
+.swipess .swiper-slide:nth-child(7n) {
+     background-image: url("src/assets/bannerbooks/book7.jpeg");
+     background-size:cover
+}
+
+.swipess .swiper-slide:nth-child(8n) {
+     background-image: url("src/assets/bannerbooks/book8.jpeg");
+     background-size:cover
+}
+
+.swipess .swiper-slide:nth-child(9n) {
+     background-image: url("src/assets/bannerbooks/book9.jpeg");
+     background-size:cover
+}
+
+
