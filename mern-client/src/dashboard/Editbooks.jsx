@@ -47,7 +47,7 @@ function Editbooks() {
 
       // console.log(bookObj)
       // update the book
-      fetch(`http://localhost:3000/book/${id}`,{
+      fetch(`https://bookbackend44.onrender.com/book/${id}`,{
         method:'PATCH',
         headers :{'Content-Type':'application/json'},
         body:JSON.stringify(UpDateBookObj)
