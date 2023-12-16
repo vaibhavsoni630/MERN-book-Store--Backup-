@@ -7,14 +7,14 @@ function Managebooks() {
 
   const [allboks ,setAllbooks] = useState([])
   useEffect(()=>{
-    fetch("http://localhost:3000/all-books").then(res =>res.json()).then(data => setAllbooks(data))
+    fetch("https://bookbackend44.onrender.com/all-books").then(res =>res.json()).then(data => setAllbooks(data))
   })
 
   // for delete the book
   const handleDelete =(id) =>{
     let answer = window.confirm('Are you sure to delete this Book?')
     if (answer){
-      fetch(`http://localhost:3000/book/${id}`,{
+      fetch(`https://bookbackend44.onrender.com/book/${id}`,{
         method:"DELETE",
       
       }).then(res=>res.json()).json(data => { alert("Book deleted successfully") 
