@@ -43,7 +43,7 @@ const router = createBrowserRouter([
       {
         path :'/book/:id',
         element : <Asinglebook/>,
-        loader: ({params}) =>fetch(`https://bookbackend44.onrender.com/book/${params.id}`)
+        loader: ({params}) =>fetch(`https://booksbackend-xlh5.onrender.com/book/${params.id}`)
       },
       
     ]
@@ -67,7 +67,7 @@ const router = createBrowserRouter([
           {
             path :'/admin/dashboard/edit-book/:id',
             element : <Editbooks/>,
-            loader: ({params}) =>fetch(`https://bookbackend44.onrender.com/book/${params.id}`)
+            loader: ({params}) =>fetch(`https://booksbackend-xlh5.onrender.com/book/${params.id}`)
           }
       ]
     },
