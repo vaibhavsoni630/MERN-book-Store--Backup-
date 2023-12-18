@@ -3,7 +3,8 @@ import {
   createBrowserRouter,
 } from "react-router-dom";
 import App from "../App.jsx";
-import Home from "../home/home.jsx";import Shop from "../shop/Shop.jsx";
+import Home from "../home/home.jsx";
+import Shop from "../shop/Shop.jsx";
 import Aboutus from "../components/Aboutus.jsx";
 import Blogs from "../components/Blogs.jsx";
 import Asinglebook from "../shop/Asinglebook.jsx";
