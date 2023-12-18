@@ -10,7 +10,7 @@ import Blogs from "../components/Blogs.jsx";
 import Asinglebook from "../shop/Asinglebook.jsx";
 import Dashboard from "../dashboard/Dashboard.jsx";
 import Dashboardlayout from "../dashboard/Dashboardlayout.jsx";
-import Uploadbook from "../dashboard/uploadbook.jsx";
+import Uploadbook from "../dashboard/Uploadbook.jsx";
 import Managebooks from "../dashboard/Managebooks.jsx";
 import Editbooks from "../dashboard/Editbooks.jsx";
 import Signup from "../components/Signup.jsx";
