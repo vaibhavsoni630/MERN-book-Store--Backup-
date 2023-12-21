@@ -5,7 +5,7 @@ function Shop() {
   const [books,setBooks] = useState([])
 
   useEffect(()=>{
-    fetch("https://bookbackend44.onrender.com/all-books").then(res => res.json()).then(data => setBooks(data))
+    fetch("https://booksbackend-xlh5.onrender.com/all-books").then(res => res.json()).then(data => setBooks(data))
   },[])
 
 
